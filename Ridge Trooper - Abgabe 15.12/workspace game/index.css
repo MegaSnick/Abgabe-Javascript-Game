@@ -1,0 +1,50 @@
+body {
+    background-image: url('img/16bit/title2.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+
+    image-rendering: pixelated;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-top: 5vh;
+    width: 40vw;
+}
+
+a {
+    color: #fff;
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 50pt;
+    text-decoration: none;
+    transition: .2s;
+}
+
+a:hover {
+  color: #373737;
+  transform: scale(1.05);
+}
+
+.button {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+
+    background-image: url('img/16bit/titlecard1.png');
+    background-size: cover;
+
+    width: 16vw;
+    height: 10vw;
+
+    margin-top: 0vh;
+}
+
+.space {
+    height: 5.5vh;
+}
